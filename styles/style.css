@@ -1,0 +1,70 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigatie bar bovenaan de pagina */ 
+header{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.5em;
+}
+
+header nav ul li a img{
+  width: 1.5em;
+  margin:0;
+
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+/* prijs */
+p {
+  text-align: center;
+}
+
+/* titel product */
+h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Ropa Sans', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  margin-left: 1.5em;
+  width: 80%;
+}
+
+ul li a {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
